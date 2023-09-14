@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding-left: 200px;
+        }
+       #c{
+            display: block;
+            border: 1px solid black;
+            width: 250px;
+            padding-left: 20px;
+        }
+        ul{
+            list-style-type: disc;
+        }
+        #a
+        {
+            list-style-type:circle;
+        }
+        #b{
+            list-style-type: none ;
+        }
+    </style>
+</head>
+<body>
+    <div id="c">
+    <p>Lists can be nested(list inside list):</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li id="b">
+            <ul id="a">
+                <li id>Black Tea</li>
+                <li id>Green Tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+</div>
+</body>
+</html>

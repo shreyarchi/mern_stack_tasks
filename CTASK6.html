@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #img{
+            margin-left: 480px;
+        }
+        #form{
+            margin-left: 400px;
+        }
+        #a{
+            box-sizing: border-box;
+            padding: 12px 20px;
+            display: inline-block;
+            width: 400px;
+        }
+        #button{
+            background-color: green;
+            color: white;
+            text-align: center;
+            width: 400px;
+            padding: 14px 20px;
+            border: none;
+            font-size: medium;
+        }
+        #b
+        {
+            background-color: lightgray;
+            height: 50px;
+            width: 400px;;
+        }
+        #cancel{
+            background-color: red;
+            text-align: center;
+            color: white;
+            border: none;
+            width: 80px;
+            height: 35px;
+            margin-top: 10px;
+            margin-left: 0%;
+            border-radius: 5px;
+        }
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="img">
+        <img src="Login_page.png" height="250px" width="300px">
+    </div>
+    <form id="form">
+        <b>Username</b><br>
+        <input type="text" id="a" placeholder="Enter Username"><br><br>
+        <b>Password</b><br>
+        <input type="text" id="a" placeholder="Enter Password"><br><br>
+        <button type="submit" id="button">Login</button><br><br>
+        <input type="checkbox" id="check">Remember Me <br><br>
+        <div id="b">
+            <button type="submit" id="cancel">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+
+    
+</body>
+</html>
